@@ -1,9 +1,24 @@
-**rishit nanavati**
- 
-Two years ago I couldn't get past the resume round of a single hackathon. The problem wasn't effort — it was that I had nothing to point to yet. So I started building the things that would eventually do the pointing.
- 
-Most recently: [Aris](https://github.com/bitbyrizbit/aris-ai), an on-device AI network — multiple devices splitting one task and running real inference locally, no server in the loop. First working version ran at 8–10 minutes per task. I traced it to beam search doing more work than the demo needed, switched to greedy decoding, and got it to ~2 minutes — a real quality-for-speed tradeoff, made on purpose and tested, not assumed.
- 
-What I don't have yet: the theory underneath the practice. I can get a model to converge; I can't always tell you *why* it does, or prove it will at scale. That gap is the next thing I'm working on, not something I'm pretending isn't there.
- 
-`rishitnanavati01@yahoo.com` · [linkedin](https://www.linkedin.com/in/therishitnanavati/)
+# rishit nanavati
+
+third-year ai/ml student in mumbai. two years ago i couldn't clear the resume round of a single hackathon. effort wasn't the problem, i had nothing to point at. so i started building the things that would do the pointing.
+
+i design for the day things break: what an agent should still believe once its evidence collapses, which villages stay reachable once a valley is cut, what a redaction tool owes you when it misses, what a cursor should do when the hand shakes.
+
+### things i've built
+
+- **[WYSE](https://github.com/bitbyrizbit/wyse)**: agent memory that keeps its receipts. retract a poisoned source and it keeps what is still true.
+- **[DOR](https://github.com/bitbyrizbit/dor)**: after a glacial flood cuts a valley, which villages can still reach a hospital? radar plus roads, checked against ground truth it never saw.
+- **[Ciphera](https://github.com/Sibtain-Nayani/Ciphera)**: redaction that deletes the text from the pdf instead of painting over it. i led backend and ml.
+- **[Aris](https://github.com/bitbyrizbit/aris-ai)**: ai that runs on the devices in the room. 8 to 10 minutes a task became 2 once i caught beam search.
+- **[STEAD](https://github.com/bitbyrizbit/stead)**: the cursor doesn't tremble, the hand does.
+- also: [Kairos](https://github.com/bitbyrizbit/kairos), [TERM](https://github.com/bitbyrizbit/term), [Slack](https://github.com/bitbyrizbit/slack)
+
+### how i work
+
+every repo of mine has a limitations section. if i can't say what a thing can't do, i don't understand it yet.
+
+### what i don't have yet
+
+the theory underneath the practice. i can make a model converge, i can't always tell you why, or prove it will at scale. that gap is what i'm working on next, and i would rather print it than hide it.
+
+rishitnanavati01@yahoo.com | [linkedin](https://linkedin.com/in/therishitnanavati)
