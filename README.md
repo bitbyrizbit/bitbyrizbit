@@ -1,24 +1,34 @@
 # rishit nanavati
 
-third-year ai/ml student in mumbai. two years ago i couldn't clear the resume round of a single hackathon. effort wasn't the problem, i had nothing to point at. so i started building the things that would do the pointing.
+**the happy path has excellent marketing. the edge cases tell the truth.**
 
-i design for the day things break: what an agent should still believe once its evidence collapses, which villages stay reachable once a valley is cut, what a redaction tool owes you when it misses, what a cursor should do when the hand shakes.
+two years ago, a hackathon resume round made one thing clear: effort is invisible until it leaves evidence. so came the habit of building things worth examining.
 
-### things i've built
+curiosity lives where systems meet inconvenient reality: evidence that turns unreliable, routes that disappear, documents that must be truly redacted, and interfaces that meet imperfect hands.
 
-- **[WYSE](https://github.com/bitbyrizbit/wyse)**: agent memory that keeps its receipts. retract a poisoned source and it keeps what is still true.
-- **[DOR](https://github.com/bitbyrizbit/dor)**: after a glacial flood cuts a valley, which villages can still reach a hospital? radar plus roads, checked against ground truth it never saw.
-- **[Ciphera](https://github.com/Sibtain-Nayani/Ciphera)**: redaction that deletes the text from the pdf instead of painting over it. i led backend and ml.
-- **[Aris](https://github.com/bitbyrizbit/aris-ai)**: ai that runs on the devices in the room. 8 to 10 minutes a task became 2 once i caught beam search.
-- **[STEAD](https://github.com/bitbyrizbit/stead)**: the cursor doesn't tremble, the hand does.
-- also: [Kairos](https://github.com/bitbyrizbit/kairos), [TERM](https://github.com/bitbyrizbit/term), [Slack](https://github.com/bitbyrizbit/slack)
+the interesting part isn't getting something to work. it's understanding what makes it work, what could invalidate it, and what survives when assumptions stop holding.
 
-### how i work
+### drawn to
 
-every repo of mine has a limitations section. if i can't say what a thing can't do, i don't understand it yet.
+**ai / ml** : the mathematics behind the model, not just the model behind the api.<br>
+**systems** : failure modes, reliability, constraints, and everything the demo conveniently leaves out. <br>
+**developer tools** : making software easier to build, inspect, test, and trust. <br>
+**research** : good questions, testable hypotheses, reproducible experiments, and conclusions that survive scrutiny.
 
-### what i don't have yet
 
-the theory underneath the practice. i can make a model converge, i can't always tell you why, or prove it will at scale. that gap is what i'm working on next, and i would rather print it than hide it.
+### a few principles
 
-rishitnanavati01@yahoo.com | [linkedin](https://linkedin.com/in/therishitnanavati)
+understand before implementing.  
+test the claim, not just the code.  
+document the boundary, not just the capability.  
+never confuse a convincing output with a correct result.
+
+### currently
+
+going deeper into the theory behind the practice, exploring open source, and building a better understanding of what makes systems dependable.
+
+---
+
+[linkedin](https://linkedin.com/in/therishitnanavati) · [email](mailto:rishitnanavati01@yahoo.com)
+
+<sub>less demo. more evidence.</sub>
